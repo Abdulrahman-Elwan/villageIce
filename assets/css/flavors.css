@@ -1,0 +1,225 @@
+.navbar-nav .nav-link {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffefef !important;
+    transition: color 0.3sease-in-out;
+}
+
+.navbar.scrolled .nav-link {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333 !important;
+    transition: color 0.3sease-in-out;
+}
+
+.hero {
+    height: 70vh;
+    box-shadow: 0 16px 16px #c3004e43;
+}
+
+.hero .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h2 span {
+    color: #ffeaf2;
+    font-size: 100px;
+}
+
+.hero .img_bg {
+    filter: brightness(60%);
+}
+
+body {
+    background-color: #ffeaf2;
+}
+
+.flavors h2 {
+    font-size: 53px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #45362d;
+    font-family: 'Lora', serif;
+    margin-bottom: 45px;
+    padding: 50px 0;
+}
+
+.flavors .ice-cream-cone-left {
+    top: 50px;
+    left: -280px;
+    z-index: -1;
+}
+
+.flavors .ice-cream-cone-right {
+    top: 150px;
+    right: -280px;
+    z-index: -1;
+}
+
+.flavors .flavors-container {
+    position: relative;
+    z-index: 5;
+    background: #edd9e1cf;
+    padding: 40px 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #000000ab;
+    margin-bottom: 40px;
+}
+
+.flavors .flavors-container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flavors-container .flavor_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flavors-container img {
+    width: 450px;
+    height: 190px;
+    background-image: url(../imge/Milk\ And\ Chocolate\ splash.png);
+}
+
+.flavors .flavors-container h3 {
+    font-size: 45px;
+    color: #c3004d;
+}
+
+.flavors .flavors-container h5 {
+    font-size: 20px;
+    color: #fb0065;
+}
+
+
+
+
+.ice-cream-cone-right1 {
+    position: absolute;
+    top: 15%;
+    right: -90px;
+    transform: rotate(-30deg);
+}
+
+.ice-cream-cone-right2 {
+    position: absolute;
+    top: 35%;
+    right: -90px;
+    transform: rotate(-30deg);
+}
+
+.ice-cream-cone-left1 {
+    position: absolute;
+    top: 25%;
+    left: -90px;
+    transform: rotate(30deg);
+}
+
+.ice-cream-cone-left2 {
+    position: absolute;
+    top: 50%;
+    left: -90px;
+    transform: rotate(30deg);
+}
+
+.ice-cream-cone-right3 {
+    position: absolute;
+    top: 60%;
+    right: -90px;
+    transform: rotate(-30deg);
+}
+
+.ice-cream-cone-right4 {
+    position: absolute;
+    top: 70%;
+    right: -90px;
+    transform: rotate(-30deg);
+}
+
+.ice-cream-cone-left3 {
+    position: absolute;
+    top: 80%;
+    left: -90px;
+    transform: rotate(30deg);
+}
+
+.ice-cream-cone-left4 {
+    position: absolute;
+    top: 90%;
+    left: -90px;
+    transform: rotate(30deg);
+}
+
+.ice-cream-cone-right5 {
+    position: absolute;
+    bottom: -60px;
+    right: -62px;
+    transform: rotate(-26deg);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .flavors h2 {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.2;
+        color: #45362d;
+        font-family: 'Lora', serif;
+        margin-bottom: 45px;
+        padding: 23px 0 0;
+    }
+
+    .flavors .flavors-container {
+        padding: 27px 5px;
+        border-radius: 20px;
+        background: #edd9e1cf;
+        text-align: center;
+    }
+
+    .flavors .flavors-container h3 {
+        font-size: 30px;
+    }
+
+    .flavors .flavors-container h5 {
+        font-size: 18px;
+    }
+
+    .flavors .flavors-container p {
+        font-size: 14px;
+    }
+
+    .flavors-container img {
+        margin-bottom: 30px;
+    }
+
+    .flavors-container img {
+        width: 280px;
+        height: 159px;
+        background-image: url(../imge/Milk\ And\ Chocolate\ splash.png);
+    }
+
+    .left {
+        order: 1;
+    }
+
+    .right {
+        order: 2;
+    }
+}
+
+
+
