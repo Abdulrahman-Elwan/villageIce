@@ -382,8 +382,24 @@ body{
     width: 100%;
 }
 
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -37px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
 /* جعل التصميم متجاوبًا */
 @media (max-width: 768px) {
+    
     .hero {
         overflow: hidden;
     }
@@ -465,6 +481,7 @@ body{
         margin-left: 15%;
         list-style: none;
     }
+    
 
 
 
