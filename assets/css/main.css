@@ -1192,6 +1192,7 @@ body{
     .about .roww {
         flex-direction: column;
         text-align: center;
+        gap: 45px !important;
     }
 
     .about .colll {
