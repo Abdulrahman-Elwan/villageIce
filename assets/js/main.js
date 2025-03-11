@@ -148,6 +148,7 @@ let translations = {
         main_text2: "Discover a variety of flavors at <span>VILLAGE</span>, perfect for every occasion.</p>",
         main_text3: "Every day is the perfect time for ice cream at <span>Ice Cream Village</span>!",
         hero_btn: "View menu",
+        icon_text : "Book now",
 
         // section flavors
 
@@ -260,6 +261,7 @@ let translations = {
         main_text2: "هناك أصناف في <span> قرية المثلجات </span>, لجميع الأوقات</p>",
         main_text3: "كل يوم هو وقت مثالي للمثلجات في <span>قرية المثلجات</span>",
         hero_btn: "عرض القائمة",
+        icon_text : "أحجز الان",
 
         // section flavors
 
