@@ -1104,13 +1104,6 @@ body{
     width: 70%;
 }
 
-.about .roww {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
 /* General Styles */
 .about .roww {
     display: flex;
@@ -1144,7 +1137,6 @@ body{
 
 /* الصورة الدائرية */
 .about .img_about .imge-about1 {
-    width: 100%;
     max-width: 600px;
     border-radius: 15px;
     animation: rotate 10s linear infinite;
