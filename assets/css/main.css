@@ -714,6 +714,19 @@ body{
         width: 180px;
         height: 170px;
     }
+    .flavors .ice-cream-cone-left {
+    top: 10%;
+    left: -280px;
+    width: 221px !important;
+    height: 247px !important;
+    left: -113px !important;
+}
+    .flavors .ice-cream-cone-right {
+    bottom: -6%;
+    right: -77px !important;
+    width: 197px !important;
+    height: 170px !important;
+}
 }
 
 
