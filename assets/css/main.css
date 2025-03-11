@@ -1132,22 +1132,12 @@ body{
     align-items: center;
     width: 100%;
     max-width: 500px;
-    margin: auto;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center;
-}
-
-/* الصورة الدائرية */
-.about .img_about .imge-about1 {
-    max-width: 85%;
-    border-radius: 15px;
-    animation: rotate 10s linear infinite;
+    margin: auto;;
 }
 
 /* اللوجو في المنتصف */
 .about .img_about .imge-about2 {
-    width: 60%;
+    width: 60% !important;
     max-width: 200px;
 }
 
